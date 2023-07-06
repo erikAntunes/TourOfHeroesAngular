@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "/dist",
+    "public": "/dist/tour-of-heroes-front-angular",
     "ignore": [
       "firebase.json",
       "**/.*",
