@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Tour of Heroes Angular';
+  rocketTitle = 'Tour of Heroes app is running!';
+  headerTitle = 'Bem vindo ao Tour dos Heróis';
+  headerDescription = 'Aqui nesse espaço vamos consumir uma Api da Marvel e disponibilizar um catálogo de hérois em Angular';
+  footerTitle = 'Documentação Oficial';
+  footerDescription = 'Guia completo de desenvolvimento Web';
 }
+
