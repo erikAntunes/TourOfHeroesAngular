@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   rocketTitle = 'Tour of Heroes app is running!';
-  headerTitle = 'Tour Of Heroes';
+  headerTitle = 'Tour Of Heroes 2023';
   headerDescription =
     'Aqui nesse espaço vamos consumir uma Api da Marvel e disponibilizar um catálogo de hérois em Angular';
   footerTitle = 'Documentação Oficial';
