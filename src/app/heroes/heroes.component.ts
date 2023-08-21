@@ -7,15 +7,15 @@ import { Hero } from '../hero.model';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
+
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
   hero: Hero = {
     id: 777,
     name: 'Iron Man'
   };
 
-  constructor(){}
-
-  ngOnInit(): void {
-
-  }
+ // constructor(){}
 
 }
