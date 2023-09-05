@@ -3,10 +3,20 @@
   <span>
     {{ headerTitle }}
   </span>
+
+  <span fxFlex></span>
+  <button
+    mat-icon-button
+    aria-label="Heroes List"
+    matTooltip="Heroes"
+    routerLink="/heroes"
+  >
+    <mat-icon>person</mat-icon>
+  </button>
 </mat-toolbar>
 
 <div class="contentAppHeroes">
-  <app-heroes></app-heroes>
+  <router-outlet></router-outlet>
   <app-messages></app-messages>
 </div>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
