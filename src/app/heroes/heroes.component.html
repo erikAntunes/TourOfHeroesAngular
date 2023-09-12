@@ -5,13 +5,8 @@
 <ul class="heroes">
   <li
     *ngFor="let hero of heroes"
-    [class.selected]="hero === selectedHero"
-    (click)="onSelect(hero)"
-    (keyup.enter)="onSelect(hero)"
-    tabindex="0"
+    routerLink="/heroes/{{hero.id}}"
   >
     <span>{{ hero.id }}</span> {{ hero.name }}
   </li>
 </ul>
-
-<app-hero-detail [hero]="selectedHero"></app-hero-detail>
