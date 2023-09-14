@@ -15,6 +15,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatTooltipModule} from '@angular/material/tooltip';
 import { DashboardComponent } from './dashboard/dashboard.component'
 import { MatCardModule } from '@angular/material/card'
+import { HttpClientModule} from '@angular/common/http'
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,8 @@ import { MatCardModule } from '@angular/material/card'
     MatTooltipModule,
     MatIconModule,
     MatCardModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
