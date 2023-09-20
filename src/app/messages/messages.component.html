@@ -11,8 +11,11 @@
         Clear messages
       </button>
     </p>
-    <div *ngFor="let messages of messagesService.getMessages()">
-      {{ messages }}
-    </div>
+
+    <mat-list>
+      <mat-list-item  *ngFor="let messages of messagesService.getMessages()">
+        {{ messages}}
+      </mat-list-item>
+    </mat-list>
   </mat-expansion-panel>
 </mat-accordion>
