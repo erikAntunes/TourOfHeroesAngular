@@ -20,6 +20,7 @@
     *matHeaderRowDef="displaydColumns"
   ></mat-header-row>
   <mat-row
+    class="heroes-mat-row"
     *matRowDef="let row; columns: displaydColumns"
     [routerLink]="['/heroes',row.id]"
   ></mat-row>
