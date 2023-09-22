@@ -1,4 +1,4 @@
-import { MessagesService } from './../messages.service';
+import { MessagesService } from '../../services/messages.service';
 import { Component } from '@angular/core';
 
 @Component({

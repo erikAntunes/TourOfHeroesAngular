@@ -1,27 +1,5 @@
 <!-- Header Title -->
-<mat-toolbar color="primary">
-  <span>
-    {{ headerTitle }}
-  </span>
-
-  <span fxFlex></span>
-  <button
-    mat-icon-button
-    aria-label="Dashboard"
-    matTooltip="Dashboard"
-    routerLink="/dashboard"
-  >
-    <mat-icon>dashboard</mat-icon>
-  </button>
-  <button
-    mat-icon-button
-    aria-label="Heroes List"
-    matTooltip="Heroes"
-    routerLink="/heroes"
-  >
-    <mat-icon>person</mat-icon>
-  </button>
-</mat-toolbar>
+<app-toolbar [title]="headerTitle" [menuItems]="menuItems"></app-toolbar>
 
 <div class="contentAppHeroes" fxLayoutGap="12px">
   <router-outlet></router-outlet>
