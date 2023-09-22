@@ -9,7 +9,7 @@ import { HttpClient, HttpHeaders} from '@angular/common/http'
   providedIn: 'root',
 })
 export class HeroService {
-  private apiUrl = 'http://localhost:3000/heroes'
+  private apiUrl = 'https://tour-of-heroes-front-angular-default-rtdb.firebaseio.com/heroes.json'
   constructor(private messagesService: MessagesService, private http: HttpClient) {}
 
   getHeroes(): Observable<Hero[]> {
